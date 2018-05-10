@@ -1,9 +1,35 @@
+body,
+html {
+    box-sizing: border-box;
+}
+
 .name {
     float: right;
+    text-align: right;
     font-family: 'Miniver', cursive;
+    color: lightskyblue;
+    width: 75%;
+    padding: 5px;
+    margin: 5px;
 }
 
 .job_title {
+    color: #333;
+    font-size: 1.1em;
+    width: 75%;
     float: right;
+    text-align: right;
     font-family: 'Rubik', sans-serif;
+}
+
+.logo {
+    /* float: left; */
+    width: 25%;
+    max-width: 300px;
+    height: auto;
+}
+
+.avatar {
+    border-radius: 50%;
+    position: absolute;
 }

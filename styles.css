@@ -33,3 +33,10 @@ html {
     border-radius: 50%;
     position: absolute;
 }
+
+.hero {
+    /* width: 100%; */
+    max-width: 800px;
+    display: block;
+    margin: 0 auto;
+}

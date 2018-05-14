@@ -3,55 +3,44 @@ html {
     box-sizing: border-box;
 }
 
+h3 {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
 .name {
     float: right;
     text-align: right;
     font-family: 'Miniver', cursive;
+    font-size: 3em;
     color: lightskyblue;
     width: 75%;
-    padding: 5px;
-    margin: 5px;
-    background-color: red;
 }
 
 .job_title {
     color: #333;
-    font-size: 1.1em;
+    font-size: 1em;
     width: 75%;
     float: right;
     text-align: right;
-    font-family: 'Rubik', sans-serif;
-    background-color: violet;
+    font-family: "Source Sans Pro", sans-serif;
+
 }
 
-.logo {
-    /* float: left; */
-    width: 25%;
-    max-width: 300px;
+.udacity_logo {
+    float: left;
+    max-width: 20%;
     height: auto;
-    background-color: blueviolet;
+    position: relative;
+    padding: 2em;
 }
-
-/* .avatar {
-    border-radius: 50%;
-    position: absolute;
-    background-color: pink;
-} */
 
 .hero {
-    width: 50%;
-    max-width: 800px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: green;
+    max-width: 50%;
+    margin: auto;
+    padding: 2em;
 }
 
 .thumbnail {
-    max-width: 30%;
-
-}
-
-.work {
-    background-color: yellow;
+    max-width: 33.33333%;
+    position: relative;
 }

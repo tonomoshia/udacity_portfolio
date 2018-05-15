@@ -23,7 +23,6 @@ h3 {
     float: right;
     text-align: right;
     font-family: "Source Sans Pro", sans-serif;
-
 }
 
 .udacity_logo {
@@ -43,4 +42,9 @@ h3 {
 .thumbnail {
     max-width: 33.33333%;
     position: relative;
+}
+
+footer {
+    margin: 0 auto;
+    text-align: center;
 }

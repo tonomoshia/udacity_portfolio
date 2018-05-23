@@ -1,6 +1,7 @@
 body,
 html {
     box-sizing: border-box;
+    margin: auto;
 }
 
 h3 {
@@ -25,18 +26,10 @@ h3 {
     font-family: "Source Sans Pro", sans-serif;
 }
 
-.udacity_logo {
-    float: left;
-    max-width: 20%;
-    height: auto;
-    position: relative;
-    padding: 2em;
-}
-
 .hero {
-    max-width: 50%;
     margin: auto;
     padding: 2em;
+    text-align: center;
 }
 
 .thumbnail {
